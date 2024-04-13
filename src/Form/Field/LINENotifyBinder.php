@@ -5,7 +5,7 @@ namespace Rc1021\LaravelAdmin\Form\Field;
 use Encore\Admin\Form\Field;
 use Encore\Admin\Facades\Admin;
 use Encore\Admin\Form\Field\PlainInput;
-use Rc1021\LaravelAdmin\Facades\LineNotify;
+use Yehlu\LaravelAdmin\Facades\LineNotify;
 
 class LINENotifyBinder extends Field
 {
