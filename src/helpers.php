@@ -1,6 +1,6 @@
 <?php
 
-use Rc1021\LaravelAdmin\Facades\LineNotify;
+use Yehlu\LaravelAdmin\Facades\LineNotify;
 use Encore\Admin\Facades\Admin;
 
 if (! function_exists('lineNotifyBinderUrl')) {
