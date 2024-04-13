@@ -4,7 +4,7 @@ namespace Rc1021\LaravelAdmin;
 
 use Encore\Admin\Facades\Admin;
 use Illuminate\Database\Eloquent\Model;
-use Rc1021\LaravelAdmin\Exceptions\InvalidConfigurationException;
+use Yehlu\LaravelAdmin\Exceptions\InvalidConfigurationException;
 
 class LINENotifyBinderFactory
 {
