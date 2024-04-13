@@ -1,6 +1,6 @@
 <?php
 
-namespace Rc1021\LaravelAdmin\Form\Field;
+namespace Yehlu\LaravelAdmin\Form\Field;
 
 use Encore\Admin\Form\Field;
 use Encore\Admin\Facades\Admin;
