@@ -1,5 +1,5 @@
 {
-    "name": "rc1021/laravel-admin-line-binder",
+    "name": "yehlu/laravel-admin-line-binder",
     "description": "在 `z-song/laravel-admin` 加入 Line 通知綁定功能",
     "require": {
         "encore/laravel-admin": "^1.8"
@@ -13,7 +13,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Rc1021\\LaravelAdmin\\": "src/"
+            "Yehlu\\LaravelAdmin\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rc1021\\LaravelAdmin\\ServiceProvider"
+                "Yehlu\\LaravelAdmin\\ServiceProvider"
             ]
         }
     }
