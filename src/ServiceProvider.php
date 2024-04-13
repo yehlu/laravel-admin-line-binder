@@ -1,6 +1,6 @@
 <?php
 
-namespace Rc1021\LaravelAdmin;
+namespace Yehlu\LaravelAdmin;
 
 use Illuminate\Support\ServiceProvider as OriginServiceProvider;
 use Encore\Admin\Form;
