@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Rc1021\LaravelAdmin\Controllers\LineNotifyAuthController;
-use Rc1021\LaravelAdmin\Facades\LineNotify;
+use Yehlu\LaravelAdmin\Controllers\LineNotifyAuthController;
+use Yehlu\LaravelAdmin\Facades\LineNotify;
 
 Route::group([
     'prefix'        => config('admin.route.prefix'),
