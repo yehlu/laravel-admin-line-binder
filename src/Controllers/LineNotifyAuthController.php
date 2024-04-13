@@ -1,8 +1,8 @@
 <?php
 
-namespace Rc1021\LaravelAdmin\Controllers;
+namespace Yehlu\LaravelAdmin\Controllers;
 
-use Rc1021\LaravelAdmin\Facades\LineNotify;
+use Yehlu\LaravelAdmin\Facades\LineNotify;
 
 class LineNotifyAuthController
 {
