@@ -1,6 +1,6 @@
 <?php
 
-namespace Rc1021\LaravelAdmin\Exceptions;
+namespace Yehlu\LaravelAdmin\Exceptions;
 
 use Exception;
 
