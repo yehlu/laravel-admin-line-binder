@@ -1,6 +1,6 @@
 <?php
 
-namespace Rc1021\LaravelAdmin;
+namespace Yehlu\LaravelAdmin;
 
 use Encore\Admin\Facades\Admin;
 use Illuminate\Database\Eloquent\Model;
