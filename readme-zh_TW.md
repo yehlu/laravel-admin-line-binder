@@ -91,9 +91,11 @@ lineNotifyRevokeUrl();
 ```
 
 routes/web.php
+```php
 use Yehlu\LaravelAdmin\Controllers\LineNotifyAuthController;
 use Yehlu\LaravelAdmin\Facades\LineNotify;
 
 $controller = LineNotifyAuthController::class;
 Route::get('notify-cancel', $controller . '@cancel')->name(LineNotify::getRouteNameForCancel());
 Route::get('notify-callback', $controller . '@callback')->name(LineNotify::getRouteNameForCallback());
+```
