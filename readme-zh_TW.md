@@ -17,7 +17,7 @@
 執行指令加入套件
 
 ```shell
-composer require rc1021/laravel-admin-line-binder
+composer require yehlu/laravel-admin-line-binder
 ```
 
 Laravel 會自動發件此套件，所以不需要在 ServiceProvider 手動加入，如果是比較舊的版本請手動註冊。
@@ -27,7 +27,7 @@ Laravel 會自動發件此套件，所以不需要在 ServiceProvider 手動加�
 如果使用手動註冊，請將 ServiceProvider 加入 config/app.php 的 `providers` 陣列中
 
 ```php
-Rc1021\LaravelAdmin\ServiceProvider::class,
+Yehlu\LaravelAdmin\ServiceProvider::class,
 ```
 
 ### 加入 Line Notify 的服務金鑰
@@ -44,7 +44,7 @@ Rc1021\LaravelAdmin\ServiceProvider::class,
 ### 發佈套件必要項目
 
 ```shell
-php artisan vendor:publish --provider="Rc1021\LaravelAdmin\ServiceProvider"
+php artisan vendor:publish --provider="Yehlu\LaravelAdmin\ServiceProvider"
 ```
 
 ### 執行 migrate:
@@ -89,3 +89,11 @@ lineNotifyBinderUrl();
 ```php
 lineNotifyRevokeUrl();
 ```
+
+routes/web.php
+use Yehlu\LaravelAdmin\Controllers\LineNotifyAuthController;
+use Yehlu\LaravelAdmin\Facades\LineNotify;
+
+$controller = LineNotifyAuthController::class;
+Route::get('notify-cancel', $controller . '@cancel')->name(LineNotify::getRouteNameForCancel());
+Route::get('notify-callback', $controller . '@callback')->name(LineNotify::getRouteNameForCallback());
