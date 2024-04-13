@@ -4,8 +4,8 @@ namespace Rc1021\LaravelAdmin;
 
 use Illuminate\Support\ServiceProvider as OriginServiceProvider;
 use Encore\Admin\Form;
-use Rc1021\LaravelAdmin\Facades\LineNotify;
-use Rc1021\LaravelAdmin\Form\Field\LINENotifyBinder;
+use Yehlu\LaravelAdmin\Facades\LineNotify;
+use Yehlu\LaravelAdmin\Form\Field\LINENotifyBinder;
 
 class ServiceProvider extends OriginServiceProvider
 {
