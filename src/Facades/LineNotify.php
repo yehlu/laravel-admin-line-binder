@@ -1,9 +1,9 @@
 <?php
 
-namespace Rc1021\LaravelAdmin\Facades;
+namespace Yehlu\LaravelAdmin\Facades;
 
 use Illuminate\Support\Facades\Facade;
-use Rc1021\LaravelAdmin\LINENotifyBinderFactory;
+use Yehlu\LaravelAdmin\LINENotifyBinderFactory;
 
 /**
  * LineNotify.
